@@ -17,7 +17,7 @@ function Home() {
     <div className="max-w-6xl mx-auto px-4 py-8">
 
       {/* Hero Banner */}
-      <div className="bg-blue-600 rounded-2xl text-white text-center py-16 px-6 mb-10">
+      <div className="bg-gray-900 rounded-2xl text-white text-center py-16 px-6 mb-10">
         <h1 className="text-4xl font-bold mb-3">Welcome to ShopZone</h1>
         <p className="text-lg text-blue-100">Find the best products at the best prices</p>
       </div>
@@ -30,8 +30,8 @@ function Home() {
             onClick={() => setSelectedCategory(category)}
             className={`px-4 py-2 rounded-full text-sm font-medium border transition-colors duration-200
               ${selectedCategory === category
-                ? 'bg-blue-600 text-white border-blue-600'
-                : 'bg-white text-gray-600 border-gray-300 hover:border-blue-600 hover:text-blue-600'
+                ? 'bg-gray-900 text-white border-gray-900'
+                : 'bg-white text-gray-600 border-gray-300 hover:border-gray-900 hover:text-gray-900'
               }`}
           >
             {category}

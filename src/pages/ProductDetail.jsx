@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom'
-import { products } from '../data/products'
+import { products } from '../data/products.js'
 import { useCart } from '../context/CartContext'
 
 function ProductDetail() {

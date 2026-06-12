@@ -8,7 +8,7 @@ import CartPage from './pages/CartPage'
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen flex flex-col bg-gray-50">
+      <div className="min-h-screen flex flex-col bg-slate-100">
 
        
         <Navbar />

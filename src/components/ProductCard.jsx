@@ -44,7 +44,7 @@ function ProductCard({ product }) {
           </span>
           <button
             onClick={() => addToCart(product)}
-            className="bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+            className="bg-gray-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-200"
           >
             Add to Cart
           </button>
