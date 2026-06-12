@@ -5,7 +5,7 @@ function Navbar() {
   const { cartCount } = useCart()
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
+    <nav className="bg-slate-900 shadow-md sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
 
         <Link to="/" className="text-2xl font-bold text-blue-600">
@@ -16,7 +16,7 @@ function Navbar() {
         <div className="flex items-center gap-6">
           <Link
             to="/"
-            className="text-gray-600 hover:text-blue-600 font-medium"
+            className="text-gray-400 hover:text-blue-600 font-medium"
           >
             Home
           </Link>
