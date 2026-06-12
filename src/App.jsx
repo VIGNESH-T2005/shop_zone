@@ -9,7 +9,11 @@ function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen flex flex-col bg-gray-50">
+
+       
         <Navbar />
+
+        
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -17,7 +21,10 @@ function App() {
             <Route path="/cart" element={<CartPage />} />
           </Routes>
         </main>
+
+        
         <Footer />
+
       </div>
     </BrowserRouter>
   )
