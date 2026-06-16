@@ -8,7 +8,6 @@ function ProductCard({ product }) {
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col">
 
-      {/* Product Image */}
       <img
         src={product.image}
         alt={product.name}
@@ -16,15 +15,12 @@ function ProductCard({ product }) {
         className="w-full h-48 object-cover rounded-t-xl cursor-pointer"
       />
 
-      {/* Product Info */}
       <div className="p-4 flex flex-col flex-grow">
 
-        {/* Category Badge */}
         <span className="text-xs text-blue-600 font-semibold uppercase tracking-wide">
           {product.category}
         </span>
 
-        {/* Name */}
         <h3
           onClick={() => navigate(`/product/${product.id}`)}
           className="text-gray-800 font-semibold text-lg mt-1 cursor-pointer hover:text-blue-600"
@@ -32,12 +28,10 @@ function ProductCard({ product }) {
           {product.name}
         </h3>
 
-        {/* Rating */}
         <p className="text-yellow-500 text-sm mt-1">
           ⭐ {product.rating}
         </p>
 
-        {/* Price + Button */}
         <div className="flex items-center justify-between mt-auto pt-4">
           <span className="text-blue-600 font-bold text-xl">
             ₹{product.price}

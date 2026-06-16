@@ -17,7 +17,7 @@ function Home() {
     <div className="max-w-6xl mx-auto px-4 py-8">
 
       {/* Hero Banner */}
-      <div className="bg-gray-900 rounded-2xl text-white text-center py-16 px-6 mb-10">
+      <div className="bg-gray-800 rounded-2xl text-white text-center py-16 px-6 mb-10">
         <h1 className="text-4xl font-bold mb-3">Welcome to ShopZone</h1>
         <p className="text-lg text-blue-100">Find the best products at the best prices</p>
       </div>

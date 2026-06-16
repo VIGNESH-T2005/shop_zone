@@ -30,49 +30,41 @@ function CartPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
 
-      {/* Page Title */}
       <h1 className="text-3xl font-bold text-gray-800 mb-8">
         Your Cart
       </h1>
 
       <div className="flex flex-col lg:flex-row gap-8">
 
-        {/* Cart Items List */}
         <div className="flex flex-col gap-4 flex-grow">
           {cart.map(item => (
             <CartItem key={item.id} item={item} />
           ))}
         </div>
 
-        {/* Order Summary */}
         <div className="bg-white rounded-2xl shadow-md p-6 h-fit lg:w-72 w-full">
 
           <h2 className="text-xl font-bold text-gray-800 mb-4">
             Order Summary
           </h2>
 
-          {/* Item count */}
           <div className="flex justify-between text-gray-500 text-sm mb-2">
             <span>Items</span>
             <span>{cart.length}</span>
           </div>
 
-          {/* Subtotal */}
           <div className="flex justify-between text-gray-500 text-sm mb-2">
             <span>Subtotal</span>
             <span>₹{total}</span>
           </div>
 
-          {/* Delivery */}
           <div className="flex justify-between text-gray-500 text-sm mb-2">
             <span>Delivery</span>
             <span className="text-green-500 font-medium">Free</span>
           </div>
 
-          {/* Divider */}
           <hr className="my-4 border-gray-200" />
 
-          {/* Total */}
           <div className="flex justify-between text-gray-800 font-bold text-lg mb-6">
             <span>Total</span>
             <span>₹{total}</span>

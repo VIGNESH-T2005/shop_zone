@@ -28,7 +28,6 @@ function ProductDetail() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
 
-      {/* Back Button */}
       <button
         onClick={() => navigate('/')}
         className="text-blue-600 hover:underline mb-6 inline-block"
@@ -38,32 +37,26 @@ function ProductDetail() {
 
       <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col md:flex-row gap-8">
 
-        {/* Product Image */}
         <img
           src={product.image}
           alt={product.name}
           className="w-full md:w-72 h-72 object-cover rounded-xl"
         />
 
-        {/* Product Info */}
         <div className="flex flex-col justify-between flex-grow">
 
-          {/* Category Badge */}
           <span className="text-xs text-blue-600 font-semibold uppercase tracking-wide">
             {product.category}
           </span>
 
-          {/* Name */}
           <h1 className="text-2xl font-bold text-gray-800 mt-2">
             {product.name}
           </h1>
 
-          {/* Rating */}
           <p className="text-yellow-500 mt-2">
             ⭐ {product.rating} / 5
           </p>
 
-          {/* Description */}
           <p className="text-gray-500 mt-3 leading-relaxed">
             {product.description}
           </p>
@@ -73,7 +66,6 @@ function ProductDetail() {
             ₹{product.price}
           </p>
 
-          {/* Add to Cart Button */}
           <button
             onClick={() => addToCart(product)}
             className="mt-6 bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-700 transition-colors duration-200 w-full md:w-auto"
