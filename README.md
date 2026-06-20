@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛒 ShopZone
+# ShopZone
 
 ### A Modern eCommerce Experience Built with React
 
@@ -16,10 +16,7 @@
 > A fully responsive, production-ready eCommerce web application featuring real-time search, dynamic cart management, and a clean modern UI — built entirely with React and Tailwind CSS.
 
 <br/>
-
-[🌐 Live Demo](https://shopzone.vercel.app) &nbsp;·&nbsp; [📁 Source Code](https://github.com/VIGNESH-T2005/shopzone) &nbsp;·&nbsp; [🐛 Report Bug](https://github.com/VIGNESH-T2005/shopzone/issues)
-
-<br/>
+
 
 ---
 
