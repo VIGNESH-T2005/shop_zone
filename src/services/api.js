@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'https://shop-zone-backend-2zbq.onrender.com/api',
+  baseURL: 'https://shop-zone-backend-2zbq.onrender.com/',
 })
 
 export const getProducts = () => API.get('/products')
