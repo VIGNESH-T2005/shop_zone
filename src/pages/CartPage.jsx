@@ -73,7 +73,7 @@ function CartPage() {
           
           <button
             onClick={() => alert('Order placed successfully! 🎉')}
-            className="w-full bg-blue-600 text-white font-semibold py-3 rounded-xl hover:bg-blue-700 transition-colors duration-200"
+            className="w-full bg-green-600 text-white font-semibold py-3 rounded-xl hover:bg-green-800 transition-colors duration-200"
           >
             Proceed to Checkout
           </button>
@@ -81,7 +81,7 @@ function CartPage() {
           
           <button
             onClick={() => navigate('/')}
-            className="w-full mt-3 text-blue-600 font-medium py-2 rounded-xl border border-blue-600 hover:bg-blue-50 transition-colors duration-200"
+            className="w-full mt-3 text-gray-800 font-medium py-2 rounded-xl border border-gray-800 hover:bg-blue-50 transition-colors duration-200"
           >
             Continue Shopping
           </button>

@@ -11,7 +11,7 @@ function ProductCard({ product }) {
       <img
         src={product.image}
         alt={product.name}
-        onClick={() => navigate(`/product/${product.id}`)}
+        onClick={() => navigate(`/product/${product._id}`)}
         className="w-full h-48 object-cover rounded-t-xl cursor-pointer"
       />
 
@@ -22,7 +22,7 @@ function ProductCard({ product }) {
         </span>
 
         <h3
-          onClick={() => navigate(`/product/${product.id}`)}
+          onClick={() => navigate(`/product/${product._id}`)}
           className="text-gray-800 font-semibold text-lg mt-1 cursor-pointer hover:text-blue-600"
         >
           {product.name}
