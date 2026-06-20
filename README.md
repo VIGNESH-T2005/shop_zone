@@ -16,7 +16,10 @@
 > A fully responsive, production-ready eCommerce web application featuring real-time search, dynamic cart management, and a clean modern UI — built entirely with React and Tailwind CSS.
 
 <br/>
-
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-success?style=for-the-badge&logo=vercel&logoColor=white)](https://shop-zone-ecomm.vercel.app)
+[![Backend API](https://img.shields.io/badge/Backend_API-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://shop-zone-backend-2zbq.onrender.com)
+
 
 ---
 
